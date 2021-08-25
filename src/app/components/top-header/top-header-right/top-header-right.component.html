@@ -1,0 +1,39 @@
+<div class="home__header__right">
+    <div>
+      <img
+        alt=""
+        mat-card-avatar
+        [src]="">
+      <span class="name"></span>
+    </div>
+    <div>
+      <mat-icon>add</mat-icon>
+    </div>
+
+    <div>
+      <mat-icon matBadge="4"
+                matBadgeColor="primary"
+                matBadgeOverlap="false"
+                matBadgePosition="above after"> forum
+      </mat-icon>
+    </div>
+
+    <div>
+      <mat-icon matBadge="3"
+                matBadgeColor="warn"
+                matBadgeOverlap="false">notifications
+      </mat-icon>
+    </div>
+
+
+    <div>
+
+      <mat-icon [matMenuTriggerFor]="menu">expand_more</mat-icon>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="logout()">
+          <mat-icon>exit_to_app</mat-icon> Logout
+        </button>
+      </mat-menu>
+    </div>
+
+  </div>

@@ -1,0 +1,30 @@
+.home__header__left {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    gap: 10px;
+    flex: 0.5;
+    height: 100%;
+  }
+  .home__header__left div.input {
+    position: relative;
+    width: fit-content;
+  }
+  .home__header__left div.input input {
+    outline: none;
+    border: 1px solid lightgray;
+    background-color: #f0f2f5;
+    padding: 10px 40px;
+    border-radius: 20px;
+  }
+  .home__header__left div.input input::placeholder {
+    padding-left: 20px;
+    font-size: 15px;
+  }
+  .home__header__left div.input .search-icon {
+    position: absolute;
+    top: 6px;
+    font-size: x-large;
+    left: 10px;
+    color: #828890;
+  }
